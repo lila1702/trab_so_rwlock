@@ -9,5 +9,7 @@ Os leitores obtêm a trava de leitura, acessam a tabela compartilhada e a libera
 
 ## Compilando e executando o código
 
+
 Para compilar o programa basta abrir o terminal e digitar o seguinte comando: gcc -o leitores_escritores leitores_escritores.c -lpthread
 Em seguida basta executar da seguinte maneira: ./leitores_escritores
+Caso não funcione é necessário verificar se o ambiente de compilação e execução suporta a biblioteca pthread.h. 
